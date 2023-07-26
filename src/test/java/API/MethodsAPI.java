@@ -1,4 +1,4 @@
-package testAPI;
+package API;
 
 import io.restassured.response.Response;
 import org.example.constant.Params;

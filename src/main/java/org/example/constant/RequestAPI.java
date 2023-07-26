@@ -3,7 +3,7 @@ package org.example.constant;
 public enum RequestAPI {
     POST("POST"),
     GET("GET"),
-    DELETE("DELETE");;
+    DELETE("DELETE");
 
     private final String formatReq;
 

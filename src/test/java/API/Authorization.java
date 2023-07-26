@@ -1,4 +1,4 @@
-package testAPI;
+package API;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -38,6 +38,8 @@ public class Authorization {
                 ReadJson.getTestingDataFromObject("url","login"),
                 RequestAPI.POST.getFormatReq(), params_precond_1, requestParams.toJSONString());
 
+
+        //по заданию должен приходить код 200
         assertEquals(SC_CREATED, response.getStatusCode());
 
         JsonNode root;
