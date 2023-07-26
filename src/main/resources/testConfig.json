@@ -1,0 +1,17 @@
+{
+  "login": {
+    "email": "arkadzi.charviak@gmail.com",
+    "password": "CxHASUN13gsD"
+  },
+  "url": {
+    "host": "https://testslotegrator.com",
+    "password": "CxHASUN13gsD",
+    "serviceTester": "/api/tester",
+    "automationTask": "/api/automationTask",
+    "login": "/login",
+    "create": "/create",
+    "getOne": "/getOne",
+    "getAll": "/getAll",
+    "deleteOne": "/deleteOne"
+  }
+}
